@@ -626,9 +626,13 @@ ul.portfolio li.active {
 
 /* -- Our Blog --*/
 
-#our-blog {
+#why {
 	background-color: #ffffff;
 	padding: 80px;
+}
+
+#tag {
+	margin-bottom: 50px;
 }
 
 .row.blog-margin-bottom-40 {
@@ -1016,16 +1020,10 @@ a.btn-service {
 
 /* -- our-team -- */
 
-#our-team {
-	background: #ffffff;
-}
-
-.single-team-item {
-	border: 1px solid #efefef;
-}
-
-.single-team-item:hover {
-	border: 1px solid #02a8f4;
+#contact {
+	background: rgba(0, 0, 0, .8);
+	color: white;
+	padding: 100px;
 }
 
 .team-item-social {
@@ -1047,11 +1045,15 @@ a.btn-service {
 .team-item-social ul li {
 	display: inline-block;
 	background-color: #efefef;
-	width: 150px;
-	height: 150px;
+	width: 140px;
+	height: 140px;
 	margin: 0 2px;
 	text-align: center;
 	border-radius: 50%;
+}
+
+.team-item-social li {
+	padding-top: 25px;
 }
 
 .team-item-img {
@@ -1092,6 +1094,10 @@ a.team-link i {
 	color: #ffffff;
 }
 
+.single-team-item:hover .linkedin {
+	background-color: #0077B5 !important;
+}
+
 .single-team-item:hover .facebook {
 	background-color: #3b5998 !important;
 }
@@ -1100,10 +1106,17 @@ a.team-link i {
 	background-color: #55acee !important;
 }
 
-.single-team-item:hover .dribbble {
-	background-color: #ea4c89 !important;
+.single-team-item:hover .instagram {
+	background-color: #DD2A7B !important;
 }
 
 .single-team-item:hover .youtube {
 	background-color: #ff0000 !important;
+}
+
+.subscribe {
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+	margin-top: 50px;
 }
