@@ -836,8 +836,6 @@ nav.navbar.navbar-default.navbar-fixed-top {
 	position: relative;
 }
 
-.about-content {}
-
 .about-content h2 {
 	font-size: 36px;
 	line-height: 32px;
@@ -1166,7 +1164,6 @@ ul.portfolio li.active {
 .counter-icon {
 	border: 1px solid #ddd;
 	display: inline-block;
-	float: left;
 	font-size: 30px;
 	margin-right: 20px;
 	padding: 10px;
@@ -1181,7 +1178,6 @@ ul.portfolio li.active {
 
 .counter-data {
 	display: inline-block;
-	float: left;
 }
 
 .counter-data h2 {
@@ -1476,8 +1472,6 @@ span.dollar-symbol {
 .single-pricing-data span.dollar-symbol {
 	color: #ffffff;
 }
-
-.single-pricing-content {}
 
 .single-pricing-content ul {
 	padding-left: 0px;
@@ -1816,8 +1810,6 @@ a.pricing-box-bt {
 
 /* Pagination */
 
-.post-pagination {}
-
 .pagination {
 	margin: 0;
 }
@@ -1931,8 +1923,6 @@ a.pricing-box-bt {
 	padding: 20px;
 	border-top: 1px solid #ddd;
 }
-
-.author-img {}
 
 .author-img img {
 	width: 100px;
@@ -2087,8 +2077,6 @@ h3.comment-heading {
 
 /* Sidebar */
 
-.sidebar {}
-
 .sidebar .widget {
 	margin-top: 30px;
 	margin-bottom: 0;
@@ -2192,7 +2180,6 @@ h3.widget-title {
 	color: #636363;
 	background-color: #f7f7f7;
 	display: inline-block;
-	float: left;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
@@ -2303,14 +2290,14 @@ a:hover.btn.ads-button {
 /* -- Footer -- */
 
 #scrollup {
-	position: fixed;
+	position: relative;
 	bottom: 20px;
 	right: 20px;
 	width: 40px;
 	height: 40px;
-	color: #02a8f4;
+	color: #02a8f4 !important;
 	cursor: pointer;
-	border: 1px solid #02a8f4;
+	border: 1px solid #02a8f4 !important;
 	text-align: center;
 	font-size: 24px;
 	line-height: 36px;
@@ -2323,60 +2310,3 @@ a:hover.btn.ads-button {
 }
 
 
-<a class="navbar-brand" href="#">
-<a id="logo-container" href="/home" class="brand-logo">
-	<img src="BANNER.png" height="120px" width="295px">
-</a>
-</a>
-<nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-end">
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="row">
-<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-<ul class="navbar-nav">
-	<li class="nav-item">
-		<a class="nav-link" href="#">About</a>
-	</li>
-	<li class="nav-item">
-		<a class="nav-link" href="#">Support</a>
-	</li>
-	<li class="nav-item">
-		<a class="nav-link" href="#">Order Supplies</a>
-	</li>
-	<li class="nav-item">
-		<a class="nav-link" href="#">Careers</a>
-	</li>
-	<li class="nav-item">
-		<a class="nav-link" href="#">Blog</a>
-	</li>
-	<li class="nav-item">
-		<a class="nav-link" href="#">Contact</a>
-	</li>
-</ul>
-</div>
-<div class="justify-content-end">
-<ul class="nav justify-content-end" id="navbar2">
-<li class="nav-item">
-	<a class="nav-link" href="#">IT Services</a>
-</li>
-<li class="nav-item">
-	<a class="nav-link" href="#">Printers/Copiers</a>
-</li>
-<li class="nav-item">
-	<a class="nav-link" href="#">Video Displays</a>
-</li>
-<li class="nav-item">
-	<a class="nav-link" href="#">Document Software</a>
-</li>
-<li class="nav-item">
-	<a class="nav-link" href="#">Office Essentials</a>
-</li>
-<li class="nav-item">
-	<a class="nav-link" href="#">Industries</a>
-</li>
-</ul>
-</div>
-</div>
-
-</nav>   

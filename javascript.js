@@ -136,16 +136,17 @@
 
 		/*~-~-~- Bottom to Top ~-~-~- */
 
-		$('body').append('<div id="scrollup"><i class="fa fa-angle-up"></i></div>');
+		$('body').append('<div id="scrollup"><i class="fas fa-chevron-up"></i></div>');
 
 
-		$(window).on("scroll", function () {
-			if ($(this).scrollTop() > 250) {
-				$('#scrollup').fadeIn();
+		/*--$(window).on("scroll", function () {
+			if ($(this).scrollTop() > 400) {
+				$('#scrollup')();
 			} else {
 				$('#scrollup').fadeOut();
 			}
-		});
+		});--*/
+
 		$('#scrollup').on("click", function () {
 			$("html, body").animate({
 				scrollTop: 0
@@ -190,9 +191,6 @@
 			$(".navbar-collapse").removeClass("in");
 		})
 		
-		$('.dropdown-toggle').dropdown()
-
-	
 	});
 	
 
